@@ -5,12 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* header */
 header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
+    background-color: #ffffff;
     padding: 0px 20px;
 }
 
@@ -31,15 +32,68 @@ header {
 }
 
 .anchor {
-    color: black;
+    color: #000000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .blue-button {
-    color: white;
-    background-color: blue;
+    color: #ffffff;
+    background-color: #0161fe;
     padding: 10px;
-    font-size: 18px;
-
+    font-size: 20px;
+    text-decoration: none;
 }
+/* /header */
+ 
+/* main */
+/* frist section */
+.body-princ {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5% 15% 1% 15%;
+    background-color: #b4d0e6;
+}
+
+.big-title {
+    font-size: 80px;
+    width: 1200px;
+}
+
+.first-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    width: 450px;
+    gap: 30px;
+    line-height: 25px;
+}
+
+.arrow {
+    width: 40px;
+    margin-top: 40px;
+}
+
+.jumbo-img {
+    width: 900px;
+    position: absolute;
+    right: 250px;
+    bottom: 540px;
+}
+
+p {
+    font-size: 20px;
+}
+/* /first section */
+
+/* second section */
+
+
+/* /second section */
+
+
+/* /main */
