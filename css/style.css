@@ -220,7 +220,7 @@ h3 {
 
 .img-partner {
     width: 800px;
-    margin: 300px 90px 300px 100px;
+    margin: 300px 90px 150px 100px;
 }
 
 .button {
@@ -231,5 +231,25 @@ h3 {
 }
 /* /Trova un partner section */
 
+/* esegui piu operazioni */
+.third-section-header {
+    padding: 0% 20% 1% 20%;
+}
 
+/* /esegui piu operazioni */
+.grid {
+    display: grid;
+    
+
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: 5px;
+    border-color: #000000;
+}
 /* /main */
