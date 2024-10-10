@@ -233,7 +233,28 @@ h3 {
 
 /* esegui piu operazioni */
 .third-section-header {
-    padding: 0% 20% 1% 20%;
+    padding: 0% 20% 0% 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.piu-operazioni-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0% 22%;
+}
+
+.row {
+    position: relative;
+    margin-top: 80px;
+    border: 1px solid black;
+    padding: 150px
+
+}
+
+.card {
+    
 }
 
 /* /esegui piu operazioni */
